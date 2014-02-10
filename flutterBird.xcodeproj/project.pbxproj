@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E1734E018A8A14000D8C31A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E1734DF18A8A14000D8C31A /* Foundation.framework */; };
+		5E1734E218A8A14000D8C31A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E1734E118A8A14000D8C31A /* CoreGraphics.framework */; };
+		5E1734E418A8A14000D8C31A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E1734E318A8A14000D8C31A /* UIKit.framework */; };
+		5E1734EA18A8A14000D8C31A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E1734E818A8A14000D8C31A /* InfoPlist.strings */; };
+		5E1734EC18A8A14000D8C31A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1734EB18A8A14000D8C31A /* main.m */; };
+		5E1734F018A8A14000D8C31A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1734EF18A8A14000D8C31A /* AppDelegate.m */; };
+		5E1734F318A8A14000D8C31A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E1734F118A8A14000D8C31A /* Main.storyboard */; };
+		5E1734F618A8A14000D8C31A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1734F518A8A14000D8C31A /* ViewController.m */; };
+		5E1734F818A8A14000D8C31A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E1734F718A8A14000D8C31A /* Images.xcassets */; };
+		5E1734FF18A8A14000D8C31A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E1734FE18A8A14000D8C31A /* XCTest.framework */; };
+		5E17350018A8A14000D8C31A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E1734DF18A8A14000D8C31A /* Foundation.framework */; };
+		5E17350118A8A14100D8C31A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E1734E318A8A14000D8C31A /* UIKit.framework */; };
+		5E17350918A8A14100D8C31A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E17350718A8A14100D8C31A /* InfoPlist.strings */; };
+		5E17350B18A8A14100D8C31A /* flutterBirdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E17350A18A8A14100D8C31A /* flutterBirdTests.m */; };
+		5E17351518A8A19A00D8C31A /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E17351418A8A19A00D8C31A /* ViewController.xib */; };
+		5E17352518A8A50B00D8C31A /* GameScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E17352318A8A50B00D8C31A /* GameScreen.m */; };
+		5E17352618A8A50B00D8C31A /* GameScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E17352418A8A50B00D8C31A /* GameScreen.xib */; };
+		5E17352818A8AAAE00D8C31A /* Screen Shot 2014-02-09 at 10.35.04 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E17352718A8AAAE00D8C31A /* Screen Shot 2014-02-09 at 10.35.04 PM.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E17350218A8A14100D8C31A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E1734D418A8A14000D8C31A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E1734DB18A8A14000D8C31A;
+			remoteInfo = flutterBird;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E1734DC18A8A14000D8C31A /* flutterBird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flutterBird.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E1734DF18A8A14000D8C31A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5E1734E118A8A14000D8C31A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5E1734E318A8A14000D8C31A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5E1734E718A8A14000D8C31A /* flutterBird-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "flutterBird-Info.plist"; sourceTree = "<group>"; };
+		5E1734E918A8A14000D8C31A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5E1734EB18A8A14000D8C31A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5E1734ED18A8A14000D8C31A /* flutterBird-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "flutterBird-Prefix.pch"; sourceTree = "<group>"; };
+		5E1734EE18A8A14000D8C31A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5E1734EF18A8A14000D8C31A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5E1734F218A8A14000D8C31A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E1734F418A8A14000D8C31A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5E1734F518A8A14000D8C31A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5E1734F718A8A14000D8C31A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5E1734FD18A8A14000D8C31A /* flutterBirdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flutterBirdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E1734FE18A8A14000D8C31A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5E17350618A8A14100D8C31A /* flutterBirdTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "flutterBirdTests-Info.plist"; sourceTree = "<group>"; };
+		5E17350818A8A14100D8C31A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5E17350A18A8A14100D8C31A /* flutterBirdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = flutterBirdTests.m; sourceTree = "<group>"; };
+		5E17351418A8A19A00D8C31A /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ViewController.xib; path = ../ViewController.xib; sourceTree = "<group>"; };
+		5E17352218A8A50B00D8C31A /* GameScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameScreen.h; path = ../GameScreen.h; sourceTree = "<group>"; };
+		5E17352318A8A50B00D8C31A /* GameScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameScreen.m; path = ../GameScreen.m; sourceTree = "<group>"; };
+		5E17352418A8A50B00D8C31A /* GameScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GameScreen.xib; path = ../GameScreen.xib; sourceTree = "<group>"; };
+		5E17352718A8AAAE00D8C31A /* Screen Shot 2014-02-09 at 10.35.04 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2014-02-09 at 10.35.04 PM.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E1734D918A8A14000D8C31A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E1734E218A8A14000D8C31A /* CoreGraphics.framework in Frameworks */,
+				5E1734E418A8A14000D8C31A /* UIKit.framework in Frameworks */,
+				5E1734E018A8A14000D8C31A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E1734FA18A8A14000D8C31A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E1734FF18A8A14000D8C31A /* XCTest.framework in Frameworks */,
+				5E17350118A8A14100D8C31A /* UIKit.framework in Frameworks */,
+				5E17350018A8A14000D8C31A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E1734D318A8A14000D8C31A = {
+			isa = PBXGroup;
+			children = (
+				5E1734E518A8A14000D8C31A /* flutterBird */,
+				5E17350418A8A14100D8C31A /* flutterBirdTests */,
+				5E1734DE18A8A14000D8C31A /* Frameworks */,
+				5E1734DD18A8A14000D8C31A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E1734DD18A8A14000D8C31A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E1734DC18A8A14000D8C31A /* flutterBird.app */,
+				5E1734FD18A8A14000D8C31A /* flutterBirdTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E1734DE18A8A14000D8C31A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E1734DF18A8A14000D8C31A /* Foundation.framework */,
+				5E1734E118A8A14000D8C31A /* CoreGraphics.framework */,
+				5E1734E318A8A14000D8C31A /* UIKit.framework */,
+				5E1734FE18A8A14000D8C31A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E1734E518A8A14000D8C31A /* flutterBird */ = {
+			isa = PBXGroup;
+			children = (
+				5E1734EE18A8A14000D8C31A /* AppDelegate.h */,
+				5E1734EF18A8A14000D8C31A /* AppDelegate.m */,
+				5E1734F118A8A14000D8C31A /* Main.storyboard */,
+				5E1734F418A8A14000D8C31A /* ViewController.h */,
+				5E1734F518A8A14000D8C31A /* ViewController.m */,
+				5E17351418A8A19A00D8C31A /* ViewController.xib */,
+				5E17352218A8A50B00D8C31A /* GameScreen.h */,
+				5E17352318A8A50B00D8C31A /* GameScreen.m */,
+				5E17352418A8A50B00D8C31A /* GameScreen.xib */,
+				5E1734F718A8A14000D8C31A /* Images.xcassets */,
+				5E1734E618A8A14000D8C31A /* Supporting Files */,
+			);
+			path = flutterBird;
+			sourceTree = "<group>";
+		};
+		5E1734E618A8A14000D8C31A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E17352718A8AAAE00D8C31A /* Screen Shot 2014-02-09 at 10.35.04 PM.png */,
+				5E1734E718A8A14000D8C31A /* flutterBird-Info.plist */,
+				5E1734E818A8A14000D8C31A /* InfoPlist.strings */,
+				5E1734EB18A8A14000D8C31A /* main.m */,
+				5E1734ED18A8A14000D8C31A /* flutterBird-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5E17350418A8A14100D8C31A /* flutterBirdTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E17350A18A8A14100D8C31A /* flutterBirdTests.m */,
+				5E17350518A8A14100D8C31A /* Supporting Files */,
+			);
+			path = flutterBirdTests;
+			sourceTree = "<group>";
+		};
+		5E17350518A8A14100D8C31A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E17350618A8A14100D8C31A /* flutterBirdTests-Info.plist */,
+				5E17350718A8A14100D8C31A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E1734DB18A8A14000D8C31A /* flutterBird */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E17350E18A8A14100D8C31A /* Build configuration list for PBXNativeTarget "flutterBird" */;
+			buildPhases = (
+				5E1734D818A8A14000D8C31A /* Sources */,
+				5E1734D918A8A14000D8C31A /* Frameworks */,
+				5E1734DA18A8A14000D8C31A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = flutterBird;
+			productName = flutterBird;
+			productReference = 5E1734DC18A8A14000D8C31A /* flutterBird.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E1734FC18A8A14000D8C31A /* flutterBirdTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E17351118A8A14100D8C31A /* Build configuration list for PBXNativeTarget "flutterBirdTests" */;
+			buildPhases = (
+				5E1734F918A8A14000D8C31A /* Sources */,
+				5E1734FA18A8A14000D8C31A /* Frameworks */,
+				5E1734FB18A8A14000D8C31A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E17350318A8A14100D8C31A /* PBXTargetDependency */,
+			);
+			name = flutterBirdTests;
+			productName = flutterBirdTests;
+			productReference = 5E1734FD18A8A14000D8C31A /* flutterBirdTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E1734D418A8A14000D8C31A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Ash Bhat";
+				TargetAttributes = {
+					5E1734FC18A8A14000D8C31A = {
+						TestTargetID = 5E1734DB18A8A14000D8C31A;
+					};
+				};
+			};
+			buildConfigurationList = 5E1734D718A8A14000D8C31A /* Build configuration list for PBXProject "flutterBird" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E1734D318A8A14000D8C31A;
+			productRefGroup = 5E1734DD18A8A14000D8C31A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E1734DB18A8A14000D8C31A /* flutterBird */,
+				5E1734FC18A8A14000D8C31A /* flutterBirdTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E1734DA18A8A14000D8C31A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E1734F818A8A14000D8C31A /* Images.xcassets in Resources */,
+				5E1734EA18A8A14000D8C31A /* InfoPlist.strings in Resources */,
+				5E17351518A8A19A00D8C31A /* ViewController.xib in Resources */,
+				5E1734F318A8A14000D8C31A /* Main.storyboard in Resources */,
+				5E17352618A8A50B00D8C31A /* GameScreen.xib in Resources */,
+				5E17352818A8AAAE00D8C31A /* Screen Shot 2014-02-09 at 10.35.04 PM.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E1734FB18A8A14000D8C31A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E17350918A8A14100D8C31A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E1734D818A8A14000D8C31A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E17352518A8A50B00D8C31A /* GameScreen.m in Sources */,
+				5E1734F618A8A14000D8C31A /* ViewController.m in Sources */,
+				5E1734F018A8A14000D8C31A /* AppDelegate.m in Sources */,
+				5E1734EC18A8A14000D8C31A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E1734F918A8A14000D8C31A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E17350B18A8A14100D8C31A /* flutterBirdTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E17350318A8A14100D8C31A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E1734DB18A8A14000D8C31A /* flutterBird */;
+			targetProxy = 5E17350218A8A14100D8C31A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5E1734E818A8A14000D8C31A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E1734E918A8A14000D8C31A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5E1734F118A8A14000D8C31A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E1734F218A8A14000D8C31A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5E17350718A8A14100D8C31A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E17350818A8A14100D8C31A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E17350C18A8A14100D8C31A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5E17350D18A8A14100D8C31A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E17350F18A8A14100D8C31A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "flutterBird/flutterBird-Prefix.pch";
+				INFOPLIST_FILE = "flutterBird/flutterBird-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5E17351018A8A14100D8C31A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "flutterBird/flutterBird-Prefix.pch";
+				INFOPLIST_FILE = "flutterBird/flutterBird-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5E17351218A8A14100D8C31A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/flutterBird.app/flutterBird";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "flutterBird/flutterBird-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "flutterBirdTests/flutterBirdTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5E17351318A8A14100D8C31A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/flutterBird.app/flutterBird";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "flutterBird/flutterBird-Prefix.pch";
+				INFOPLIST_FILE = "flutterBirdTests/flutterBirdTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E1734D718A8A14000D8C31A /* Build configuration list for PBXProject "flutterBird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E17350C18A8A14100D8C31A /* Debug */,
+				5E17350D18A8A14100D8C31A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E17350E18A8A14100D8C31A /* Build configuration list for PBXNativeTarget "flutterBird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E17350F18A8A14100D8C31A /* Debug */,
+				5E17351018A8A14100D8C31A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E17351118A8A14100D8C31A /* Build configuration list for PBXNativeTarget "flutterBirdTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E17351218A8A14100D8C31A /* Debug */,
+				5E17351318A8A14100D8C31A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E1734D418A8A14000D8C31A /* Project object */;
+}
