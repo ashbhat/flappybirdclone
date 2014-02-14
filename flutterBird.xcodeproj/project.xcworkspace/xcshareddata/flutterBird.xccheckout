@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>044DA933-1E39-4DC3-8A52-86AE108EB4C6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>flutterBird</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E65F11B9-CB43-4EB1-82B6-EED10E4428E8</key>
+		<string>https://github.com/rsmoz/flappybirdclone.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>flutterBird.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E65F11B9-CB43-4EB1-82B6-EED10E4428E8</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/rsmoz/flappybirdclone.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E65F11B9-CB43-4EB1-82B6-EED10E4428E8</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E65F11B9-CB43-4EB1-82B6-EED10E4428E8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>flappybirdclone</string>
+		</dict>
+	</array>
+</dict>
+</plist>

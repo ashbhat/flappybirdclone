@@ -47,30 +47,30 @@
     [self.view addSubview:top];
     [self.view addSubview:bottom];
     
-    myTimer = [NSTimer scheduledTimerWithTimeInterval:.3 target: self
+    myTimer = [NSTimer scheduledTimerWithTimeInterval:.01 target: self
                                                       selector: @selector(dropTheBird:) userInfo: nil repeats: YES];
     [myTimer fire];
     // Do any additional setup after loading the view from its nib.
 }
 
 -(void)dropTheBird:(id)sender{
-    [flipperBird setFrame:CGRectMake(flipperBird.frame.origin.x, flipperBird.frame.origin.y+30, flipperBird.frame.size.width, flipperBird.frame.size.height)];
-    [top setFrame:CGRectMake(top.frame.origin.x - 10, top.frame.origin.y, top.frame.size.width, top.frame.size.height)];
-    [bottom setFrame:CGRectMake(bottom.frame.origin.x - 10, bottom.frame.origin.y, bottom.frame.size.width, bottom.frame.size.height)];
-    if (flipperBird.frame.origin.y > 526) {
+    [flipperBird setFrame:CGRectMake(flipperBird.frame.origin.x, flipperBird.frame.origin.y+1, flipperBird.frame.size.width, flipperBird.frame.size.height)];
+    [top setFrame:CGRectMake(top.frame.origin.x - 2, top.frame.origin.y, top.frame.size.width, top.frame.size.height)];
+    [bottom setFrame:CGRectMake(bottom.frame.origin.x - 2, bottom.frame.origin.y, bottom.frame.size.width, bottom.frame.size.height)];
+    if (flipperBird.frame.origin.y > 503) {
         UIAlertView *GameOVer = [[UIAlertView alloc]initWithTitle:@"oh no!" message:@"you lost" delegate:self cancelButtonTitle:@"retry" otherButtonTitles:nil, nil];
         [GameOVer show];
         
         [myTimer invalidate];
     }
     if (flipperBird.frame.origin.x >= bottom.frame.origin.x && flipperBird.frame.origin.x <=bottom.frame.origin.x+40) {
-    if (flipperBird.frame.origin.y <= top.frame.size.height || flipperBird.frame.origin.y >=  bottom.frame.origin.y) {
-        UIAlertView *GameOVer = [[UIAlertView alloc]initWithTitle:@"oh no!" message:[NSString stringWithFormat:@"you lost. Your score was %@",score.text] delegate:self cancelButtonTitle:@"okay" otherButtonTitles:nil, nil];
-        [GameOVer show];
-        [myTimer invalidate];
+		if (flipperBird.frame.origin.y <= top.frame.size.height || flipperBird.frame.origin.y >=  bottom.frame.origin.y) {
+			UIAlertView *GameOVer = [[UIAlertView alloc]initWithTitle:@"oh no!" message:[NSString stringWithFormat:@"you lost. Your score was %@",score.text] delegate:self cancelButtonTitle:@"okay" otherButtonTitles:nil, nil];
+			[GameOVer show];
+			[myTimer invalidate];
+		}
     }
-    }
-    if (bottom.frame.origin.x < -39) {
+    if (bottom.frame.origin.x < -120) {
         [self addtoScore];
 
         [top setFrame:CGRectMake(320, top.frame.origin.y, top.frame.size.width, top.frame.size.height)];
@@ -107,10 +107,10 @@
 }
 
 -(void)makeFallwithView:(UIImageView*)bird{
-    [bird setFrame:CGRectMake(bird.frame.origin.x, bird.frame.origin.y-30, bird.frame.size.width, bird.frame.size.height)];
+    [bird setFrame:CGRectMake(bird.frame.origin.x, bird.frame.origin.y-55, bird.frame.size.width, bird.frame.size.height)];
  
     if (bird.frame.origin.y < 0) {
-  UIAlertView *GameOVer = [[UIAlertView alloc]initWithTitle:@"oh no!" message:[NSString stringWithFormat:@"you lost. Your score was %@",score.text] delegate:self cancelButtonTitle:@"okay" otherButtonTitles:nil, nil];
+		UIAlertView *GameOVer = [[UIAlertView alloc]initWithTitle:@"oh no!" message:[NSString stringWithFormat:@"you lost. Your score was %@",score.text] delegate:self cancelButtonTitle:@"okay" otherButtonTitles:nil, nil];
         [GameOVer show];
         [myTimer invalidate];
 
